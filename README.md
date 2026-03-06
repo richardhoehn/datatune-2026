@@ -1,2 +1,7 @@
-# datatune-2026
-Datatune 2026 Conference Talk Details
+# Datatune 2026 Confrence Details
+
+## Reward-Driven Decision Making: Using Reinforcement Learning (RL) to Optimize Routes
+
+Most routing tools are built on a simple idea: find the shortest or cheapest path and you’re done. But in agriculture logistics, reality is way messier. Trucks have to juggle pickup and drop-off windows, weight and pallet limits, DOT hours-of-service, rural road quirks, and constantly changing demand. The number of possible route combinations explodes so fast that a purely deterministic, “calculate every option” approach becomes impossible in practice. In this talk, we’ll look at how reinforcement learning (RL) can learn good routing strategies directly from experience, optimizing real farm-to-elevator routes where “shortest” is often not “best”.
+
+Over 60 minutes, we’ll walk through an intuitive, non-scary introduction to RL—agents, states, actions, and rewards—using concrete Ag Tech examples instead of abstract math. I’ll give a brief background on core RL ideas, then show simple, readable code examples that illustrate how to encode business rules (like weight caps or DOT limits) into a reward function and let an RL agent explore different route choices. We’ll see how the agent discovers smarter patterns than basic heuristics, look at how this can extend beyond routing to scheduling and loading, and leave time at the end for Q&A and discussion about where RL could fit into your own logistics and optimization problems.
